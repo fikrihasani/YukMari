@@ -1,0 +1,161 @@
+html,
+body {
+    height: 100%;
+	font-family : Century Gothic, sans-serif;
+	padding-left : 0px;
+	padding-right:0px;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+.footer1 { background: #232323; padding: 30px 0 0 0; font-size: 12px; color: #999; }
+.footer1 a { color: #ccc; }
+.footer1 a:hover {color: #fff; }
+.footer1 .widget { margin-bottom:30px; }
+.footer1 .widget-title { font-size: 17px; font-weight: bold; color: #ccc; margin: 0 0 20px; }
+.footer1 .entry-meta { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 35px 0; padding: 2px 0; color: #888888; font-size: 12px; font-size: 0.75rem; }
+.footer1 .entry-meta a { color: #333333; }
+.footer1 .entry-meta .meta-in { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; }
+.follow-me-icons { font-size:30px; }
+.follow-me-icons i { float:left; margin:0 10px 0 0; }
+.footer2 { background: #191919; padding: 15px 0; color: #777; font-size: 12px; }
+.footer2 a { color: #aaa; }
+.footer2 a:hover { color: #fff; }
+.footer2 p { margin: 0; }
+.widget-simplenav { margin-left:-5px; }
+.widget-simplenav a{ margin:0 5px; }
+.footer {
+	height: 60px;
+	background-color: black;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+
+
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/*custom css*/
+
+  .site-index #headTop{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/holiday.jpg');
+    text-align: center;
+    height:500px;
+    width: 100%;
+    color : white;
+    margin-bottom: 20px;
+  }
+  .btn-group-thread{
+    margin-top: 10px;
+  }
+  .site-index #headTop h3{
+    color : white;
+  }
+	.fa-stack .fa-in{
+		color : white;
+	}
+	.entry-form{
+		margin-bottom : 20px;
+	}
+
+  #myFunction{
+    /*display: block;*/
+    /*width: 300px;*/
+    position: fixed;
+    z-index: 999;
+    right: 40px;
+    bottom: 270px;
+  }
+  #tombol{
+    width: 50px;
+    height: 50px;
+    /*text-indent: -9999px;*/
+    position: fixed;
+    z-index: 999;
+    right: 40px;
+      bottom: 200px;
+    background: #99d6ff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius : 50px;
+    padding-top : 0px;
+    color : white;
+    text-align : center;
+    font-size : 20pt;
+    box-shadow : 2px 2px 10px black;
+  }
